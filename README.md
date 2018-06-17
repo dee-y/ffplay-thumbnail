@@ -25,25 +25,23 @@ replace beer for an orange juice if you're abstemious or underage)
 # Build and Test
 You're free to mess the code to change ffplay parameters to your liking and/or view the code if you know how to make it better to your needs.
 
+## Using build.bat
+- Open the folder where Program.cs is located
+- Make your changes in Program.cs with your favorite text editor
+- Double-click on build.bat batch file
+- Done
+
 ## Using Visual Studio (2017)
-- Open ffplay-thumbnail.csproj with your favorite text editor and change the 2nd line where is ToolsVersion="3.5" to ToolsVersion="15.0" and save the changes
+- Open ffmpeg-thumbnail.csproj with your favorite text editor and change the 2nd line where is ToolsVersion="3.5" to ToolsVersion="15.0" and save the changes
 - Open the .sln project
 - Make your changes in Program.cs
 - Build
-
-## Using cmd.exe (if you don't have Visual Studio)
-- Open the folder where Program.cs is located
-- Make your changes in Program.cs with your favorite text editor
-- Shift + right mouse click on to the folder
-- "Open command window here"/"Open PowerShell window here"
-- Type: "C:\Windows\Microsoft.NET\Framework64\v3.5\MSBuild.exe .\ffplay-thumbnail-video.sln /t:Build /p:Configuration=Release"
-- The compiled application will be under bin\Release directory
 
 ## Using another Visual Studio version or another tools
 - Simply I don't know, search how to do it yourself
 
 # FAQ
-- Why you're an asshole with all these things of "beer" "replace to an orange juice if you're underage" "fuck yourself if you don't want to use cmd.exe"?
+- Why you're an asshole with all these things of "beer" "replace to an orange juice if you're underage" "fuck yourself if you don't want to use build.bat"?
   - Take it easy, this is not an application meant to preserve mankind of its own tragedy.
 
 # Contribute
