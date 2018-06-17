@@ -1,7 +1,7 @@
 # ffplay-thumbnail
 
 # Introduction
-ffplay-thumbnail is a super small and a single CLI executable to playback videos in a smaller resolution.
+ffplay-thumbnail is a super small and a single CLI executable to playback videos in a smaller resolution using ffplay as a backend.
 The program only needs the video filename as a parameter, if you want to play it fullscreen then you can do it passing "fullscreen" word as an additional paremeter (does not matter if it's first or second parameter).
 As many other kind of wrappers and front-ends the motivation of this "project" is simple: Lazyness.
 Basic usage of ffplay is dead simple, but you need to remember all the parameters you need and enter all of them, with this project you don't need to enter all those parameters each time you want to play a video.
