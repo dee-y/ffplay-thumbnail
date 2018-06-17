@@ -32,7 +32,7 @@ You're free to mess the code to change ffplay parameters to your liking and/or v
 - Done
 
 ## Using Visual Studio (2017)
-- Open ffmpeg-thumbnail.csproj with your favorite text editor and change the 2nd line where is ToolsVersion="3.5" to ToolsVersion="15.0" and save the changes
+- Open ffplay-thumbnail.csproj with your favorite text editor and change the 2nd line where is ToolsVersion="3.5" to ToolsVersion="15.0" and save the changes
 - Open the .sln project
 - Make your changes in Program.cs
 - Build
