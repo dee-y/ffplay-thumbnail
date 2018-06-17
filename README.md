@@ -10,7 +10,7 @@ Basic usage of ffplay is dead simple, but you need to remember all the parameter
 # Getting Started
 
 ## 1. Installation
-- Download the app. https://github.com/Evilchuck666/ffplay-thumbnail-video/archive/master.zip
+- Download the app. https://github.com/Evilchuck666/ffplay-thumbnail/archive/master.zip
 - Save it wherever you want
 - Add destination folder to %PATH% environment variable if you want easy access using cmd.exe (don't use UNIX style terminals like Cygwin, unexpected results can occur using .NET apps)
 - Enjoy
