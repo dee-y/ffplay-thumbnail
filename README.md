@@ -25,20 +25,28 @@ replace beer for an orange juice if you're abstemious or underage)
 # Build and Test
 You're free to mess the code to change ffplay parameters to your liking and/or view the code if you know how to make it better to your needs.
 
-## Using build.bat
-- Open the folder where Program.cs is located
-- Make your changes in Program.cs with your favorite text editor
-- Double-click on build.bat batch file
-- Done
+## Using make.bat
+1. Open the folder where Program.cs is located
+2. Make your changes in Program.cs with your favorite text editor
+3. Open cmd.exe or powershell.exe on the directory (you can do it directly pressing Shift+Right-Click mouse on the folder)
+4. Type: .\build.bat (build|install|clean|all|uninstall)
+  - 'all' option makes build, install and clean consecutively
+  - 'build' only makes the binary, and copies it from .\bin\Release to .\CompiledBinary\
+  - 'install' copies from .\CompiledBinary to C:\tools\ffmpeg-utilities\
+  - 'clean' removes obj, bin, Compiled, folders and removes sln cache file from the project root folder
+  - 'uninstall' removes the binary from C:\tools\ffmpeg-utilities\
+5. Done (excepting you won't have the context menu option)
 
-## Using Visual Studio (2017)
-- Open ffplay-thumbnail.csproj with your favorite text editor and change the 2nd line where is ToolsVersion="3.5" to ToolsVersion="15.0" and save the changes
-- Open the .sln project
-- Make your changes in Program.cs
-- Build
+## Using bootstrap.bat
+Same steps as build.bat, but this batch will auto-elevate permissions to build.bat, so if you don't trust me...
+Don't run it, but executing it, you will have context menu options to use the program.
+If so, replace .\build.bat to .\bootstrap.bat
 
-## Using another Visual Studio version or another tools
-- Simply I don't know, search how to do it yourself
+## Using Visual Studio version
+If you use Visual Studio, you will need to edit .sln file first to be able to open the project
+
+## Using another tools
+Simply I don't know, search how to do it yourself
 
 # FAQ
 - Why you're an asshole with all these things of "beer" "replace to an orange juice if you're underage" "fuck yourself if you don't want to use build.bat"?
