@@ -30,11 +30,11 @@ You're free to mess the code to change ffplay parameters to your liking and/or v
 2. Make your changes in Program.cs with your favorite text editor
 3. Open cmd.exe or powershell.exe on the directory (you can do it directly pressing Shift+Right-Click mouse on the folder)
 4. Type: .\build.bat (build|install|clean|all|uninstall)
-  - 'all' option makes build, install and clean consecutively
-  - 'build' only makes the binary, and copies it from .\bin\Release to .\CompiledBinary\
-  - 'install' copies from .\CompiledBinary to C:\tools\ffmpeg-utilities\
-  - 'clean' removes obj, bin, Compiled, folders and removes sln cache file from the project root folder
-  - 'uninstall' removes the binary from C:\tools\ffmpeg-utilities\
+    - 'all' option makes build, install and clean consecutively
+    - 'build' only makes the binary, and copies it from .\bin\Release to .\CompiledBinary\
+    - 'install' copies from .\CompiledBinary to C:\tools\ffmpeg-utilities\
+    - 'clean' removes obj, bin, Compiled, folders and removes sln cache file from the project root folder
+    - 'uninstall' removes the binary from C:\tools\ffmpeg-utilities\
 5. Done (excepting you won't have the context menu option)
 
 ## Using bootstrap.bat
